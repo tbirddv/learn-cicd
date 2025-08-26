@@ -12,7 +12,7 @@ import (
 	"github.com/go-chi/cors"
 	"github.com/joho/godotenv"
 
-	"github.com/bootdotdev/learn-cicd-starter/internal/database"
+	"github.com/tbirddv/learn-cicd/internal/database"
 
 	_ "github.com/tursodatabase/libsql-client-go/libsql"
 )

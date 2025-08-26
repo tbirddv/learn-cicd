@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"github.com/bootdotdev/learn-cicd-starter/internal/auth"
-	"github.com/bootdotdev/learn-cicd-starter/internal/database"
+	"github.com/tbirddv/learn-cicd/internal/auth"
+	"github.com/tbirddv/learn-cicd/internal/database"
 )
 
 type authedHandler func(http.ResponseWriter, *http.Request, database.User)
